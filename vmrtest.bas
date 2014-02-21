@@ -12,4 +12,4 @@ While 1
 		printf( "invalid" + Chr( 10 ) )
 	End If
 Wend
-Sleep
+
