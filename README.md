@@ -7,9 +7,9 @@ ___
 
 本库内的原子量摘自*IUPAC原子量表2013*  
 该库是在Windows下用如下命令行生成的  
-1. `g++ -c -o libvmr.o libvmr.cpp -O2 -m32`
-2. `ar rcs libvmr.lib libvmr.o`
-3. `ranlib libvmr.lib`
+* `g++ -c -o libvmr.o libvmr.cpp -O2 -m32`
+* `ar rcs libvmr.lib libvmr.o`
+* `ranlib libvmr.lib`
 
 ___
 ##`vmr_get()`函数
@@ -24,7 +24,7 @@ ___
 ___
 ##`vmr_mrt`结构体
 * `vnm`：一般值的近似值
-* `vlo`: 最小值的近似值
+* `vlo`：最小值的近似值
 * `vup`：最大值的近似值
 
 ___
